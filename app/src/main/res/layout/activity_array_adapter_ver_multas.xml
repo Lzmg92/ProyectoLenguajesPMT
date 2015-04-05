@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#389056"
+    tools:context="com.lezapp.tarea.proyectolenguajespmt.app.ArrayAdapterVerMultas">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:id="@+id/imgfotomulta"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/multa1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Q.100.00"
+        android:id="@+id/lblcantidad"
+        android:layout_alignTop="@+id/imgfotomulta"
+        android:layout_toRightOf="@+id/imgfotomulta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Carretera 493"
+        android:id="@+id/lblubicacion"
+        android:layout_below="@+id/lblcantidad"
+        android:layout_toRightOf="@+id/imgfotomulta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/lblfecha"
+        android:layout_below="@+id/lblubicacion"
+        android:layout_toRightOf="@+id/imgfotomulta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Exceso Velocidad"
+        android:id="@+id/lbltipo"
+        android:layout_below="@+id/lblfecha"
+        android:layout_toRightOf="@+id/imgfotomulta" />
+
+</RelativeLayout>
